@@ -66,6 +66,14 @@ const sakin = suo + ' megstamas maistas yra ' + maistas + '.';
 console.log(sakin);
 
 
+
+
+
+
+
+
+
+
 const heroName = 'Chuck';
 const heroLastname = 'Norris';
 const birth = 1940;
@@ -79,7 +87,23 @@ console.log(heroLastname);
 console.log(birth);
 const sakinys2 = heroName + ' ' + heroLastname + ' (' + suma2 + ')';
 console.log(sakinys2);
-console.clear();
+
+
+
+// arba 
+
+
+const heroSays = `${heroName} ${heroLastname} (${2020 - birth}).`;
+console.log(heroSays);
+
+
+
+
+
+
+
+
+
 
 // const pinigine = 0;
 // const sausis = 100;

@@ -46,4 +46,21 @@ kai \gale reiskia ignoruok Enter
 </div>`; 
 console.log(html12);
 
+console.clear();
+
+//Joniukas ir Gretute ejo i miska.
+
+const berniukas = 'Joniukas';
+const mergaite = 'Gretute';
+const judejimobudas = 'ejo';
+const vieta = 'miska';
+
+//const pasaka = berniukas + ' ir ' + mergaite + ' ' + judejimobudas + ' i ' + vieta + '.';
+
+//tas pats tik paprasciau
+
+const pasaka = `${berniukas} ir ${mergaite} ${judejimobudas} i ${vieta}.`;
+
+console.log(pasaka);
+
 
